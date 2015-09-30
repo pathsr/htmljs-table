@@ -1,0 +1,14 @@
+body {
+ background: #ffffff;
+}
+
+.container{
+    
+    width: 500px;
+    height: 600px;
+    margin: 15px;
+    position: relative;
+    background: #c8e85f;
+     border-radius: 10px;
+}
+
