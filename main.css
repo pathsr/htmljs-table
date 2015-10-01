@@ -1,14 +1,43 @@
 body {
- background: #ffffff;
+ background-color: rgb(0, 0, 0);  
 }
 
 .container{
+    background-color: rgba(20, 150, 115, 0.82);
+    width: 460px;
+    height:530px;
+    margin: 20px auto;
+    border: 3px solid rgba(148, 170, 164, 0.86);
+    border-radius: 20px;
     
-    width: 500px;
-    height: 600px;
-    margin: 15px;
-    position: relative;
-    background: #c8e85f;
-     border-radius: 10px;
+}
+.title{
+    background-color: rgba(107, 199, 211, 0.99);
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 15px auto;
+    text-align: center; 
+    box-shadow:
 }
 
+.table{
+    background-color: rgba(8, 156, 201, 0.88);
+    width: 300px;
+    height:400px;
+    margin: 0px auto;
+}
+
+.col{
+    background-color: rgba(107, 199, 211, 0.88);
+    border-radius: 10px;
+    margin: 0px auto;
+    text-align: center;    
+}
+
+.col1{
+    background-color: rgba(107, 199, 211, 0.88);
+    border-radius: 4px;
+    margin: 0px auto;
+    text-align: center;    
+}

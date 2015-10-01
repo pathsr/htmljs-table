@@ -28,25 +28,23 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>HTML+JS Table</h1>
+        <header class="title">
+            <CENTER><h1>HTML+JS Table</h1></CENTER>
         </header>
-        <table class="list">
+        <table class="table">   
+            <tr class="col">
+                <td class="col1"><B>No.</B></td> 
+                <td class="col1"><B>Nombre.</B></td>
+            </tr>
             
-        <tr>
-                <td> No</td> 
-                <td>Nombre</td>
-        </tr>
-        
             <!-- Posiblemente se tenga que colocar código HTML a mano que no
                  es necesario que sea colocado por javascript -->   
-    
+            
                 <script>
             
                 for(i=0; i<=14; i+=1){    
-                    document.write('<tr><td>' +i+ '</td><td>' +nombres[i]+ '</td></tr>' );
+                    document.write('<tr class="col"><td class="col">' +(i+1)+ '</td><td class="col1">' +nombres[i]+ '</td></tr>' );
                 }
-                
                 
                 </script>
                 
